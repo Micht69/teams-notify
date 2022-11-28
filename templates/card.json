@@ -1,0 +1,60 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "medium",
+            "weight": "bolder",
+            "text": "Argo Workflows k8s-cluster-install-cxxfq",
+            "wrap": true,
+            "style": "heading"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Workflow k8s-cluster-install-lwtl8 has ended",
+            "wrap": true
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+                {
+                    "title": "Status:",
+                    "value": "Succeeded"
+                },
+                {
+                    "title": "Duration:",
+                    "value": "67.272395s"
+                },
+                {
+                    "title": "Failed steps:",
+                    "value": "null"
+                },
+                {
+                    "title": "Committer:",
+                    "value": "<at>commiter</at>"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "View",
+            "url": "https://workflow.ipk-sauron-cl01.agoracalyce.net/workflows/argo-workflows/k8s-cluster-install-cxxfq?tab=workflow"
+        }
+    ],
+    "msteams": {
+        "entities": [
+            {
+                "type": "mention",
+                "text": "<at>commiter</at>",
+                "mentioned": {
+                    "id": "arthur.meyer@agoracalyce.com",
+                    "name": "Arthur Meyer"
+                }
+            }
+        ]
+    }
+}
